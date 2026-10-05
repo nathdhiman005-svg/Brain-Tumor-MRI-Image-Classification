@@ -17,3 +17,6 @@ Brain Tumor MRI Image Classification.docx
 
 #pretrained medical model
 radimagenet_resnet50.h5
+
+saved_models/custom_cnn_model.h5
+saved_models/radimagenet_model.h5

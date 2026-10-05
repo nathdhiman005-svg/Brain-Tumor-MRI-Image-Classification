@@ -7,8 +7,6 @@
 
 An advanced, interactive web application that classifies brain tumors from MRI scans using Deep Learning. The core of this project relies on **RadImageNet**, a specialized medical imaging model, achieving a stunning **95.12% Test Accuracy**.
 
-## 🚀 Live Demo
-*(Insert your Streamlit Community Cloud link here once deployed!)*
 
 ## 📖 Project Overview
 Detecting brain tumors quickly and accurately is crucial for medical diagnosis. This project automates the classification of brain tumors into four distinct categories:
@@ -42,25 +40,26 @@ This model was trained exclusively on **T1-Weighted Contrast-Enhanced (T1c)** MR
 ## 💻 Installation & Local Setup
 
 ### 1. Clone the repository
-`ash
+`Bash
 git clone https://github.com/nathdhiman005-svg/Brain-Tumor-MRI-Image-Classification.git
 cd Brain-Tumor-MRI-Image-Classification
 `
 
 ### 2. Pull the Large Model File (Git LFS)
-Because the highly accurate adimagenet_finetuned.h5 model is over 200MB, it is tracked via Git LFS. Ensure you have Git LFS installed:
-`ash
+Because the highly accurate 
+adimagenet_finetuned.h5 model is over 200MB, it is tracked via Git LFS. Ensure you have Git LFS installed:
+`Bash
 git lfs install
 git lfs pull
 `
 
 ### 3. Install Dependencies
-`ash
+`bash
 pip install -r requirements.txt
 `
 
 ### 4. Run the Streamlit App
-`ash
+`bash
 streamlit run app.py
 `
 
