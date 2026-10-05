@@ -1,0 +1,20 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+
+# Datasets (if they are too large for git, they should be ignored or managed with DVC)
+# We can ignore the specific dataset folder but keep the code tracking it
+Tumour Dataset/
+extracted_text.txt
+
+# Notebooks
+.ipynb_checkpoints/
+
+# project details
+Brain Tumor MRI Image Classification.docx
+
+#pretrained medical model
+radimagenet_resnet50.h5
+saved_models/
